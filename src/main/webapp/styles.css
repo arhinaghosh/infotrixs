@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	padding:0px 430px;
+	background: #8b0000;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+.welcome{
+	color: white;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin:0;
+	padding:10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  background: #ffa07a;
+}
+
+.quote-container {
+  margin-top: 2px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #002e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #126180;
+}
